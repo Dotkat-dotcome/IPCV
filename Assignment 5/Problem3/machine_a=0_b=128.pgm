@@ -1,0 +1,839 @@
+P5
+# affine rescaling
+# a:   0.0000
+# b: 128.0000
+256 256
+255
+ssssnniivvvvvvvvxxxxvvvvssvvvvvvssvvssvvvvbbss{{{{xxvv{{xxxxxx{{{{xx{{{{xxvvvvssllnnll00llllqqssvvvvxxssssnnvvssqqqq__ssvvxxxx{{xxxxxxxxxxxxvvxxxx}}xx{{{{xxvvxxxx{{vvxxxxvvxxnnvvxxvvxxvvxxxxxxqqUUiinnllggnnnnllqqiivvvvvviiiiUUiillggggiiiiiiddll22++2277qqssssssnniivvvvvvvvxxxxvvvvssvvvvvvssvvssvvvvbbss{{{{xxvv{{xxxxxx{{{{xx{{{{xxvvvvssllnnll00llllqqssvvvvxxssssnnvvssqqqq__ssvvxxxx{{xxxxxxxxxxxxvvxxxx}}xx{{{{xxvvxxxx{{vvxxxxvvxxnnvvxxvvxxvvxxxxxxqqUUiinnllggnnnnllqqiivvvvvviiiiUUiillggggiiiiiiddll22++2277qqssssssllqqqqvvssvvvvxxvvvvssvvxxvvssqqssxxqqddss€€xxxxxxxxxxvv{{{{xx{{xxxxxxxxvvnnnnnnssIIlliiqqvvssssxxvvllssqqqqnnqqZZssssxxxxxxxx{{xxxxxxxxxxvvxx{{}}}}{{xxvvvv{{{{xxvvssvvssvvvvvvvvvvxxxxvvvvvv]]qqnnnnllggXXbbggssqqlllllliiSSiigggggggggggggggg55--00::??PPssssllqqqqvvssvvvvxxvvvvssvvxxvvssqqssxxqqddss€€xxxxxxxxxxvv{{{{xx{{xxxxxxxxvvnnnnnnssIIlliiqqvvssssxxvvllssqqqqnnqqZZssssxxxxxxxx{{xxxxxxxxxxvvxx{{}}}}{{xxvvvv{{{{xxvvssvvssvvvvvvvvvvxxxxvvvvvv]]qqnnnnllggXXbbggssqqlllllliiSSiigggggggggggggggg55--00::??PPvvqqqqnnssvvssvvvvvvvvvvssssssssqqssssxxvvddssxxxxxxxx{{vvvvxxxxvvxxvvxxvvvvssssxxvvvvSSiillssssvvvvvvvvvvqqqqqqssqqddssvv{{xxvvvvxxvvvvxxxxxxvvxxxxxx{{{{vvvvvvxxxxxxxxvvxxssxxssvvvvxxvvssxxvvvvZZllnnggii::0000__llnnllggiiggSSlliiddggggggiidddd77----5555((vvqqqqnnssvvssvvvvvvvvvvssssssssqqssssxxvvddssxxxxxxxx{{vvvvxxxxvvxxvvxxvvvvssssxxvvvvSSiillssssvvvvvvvvvvqqqqqqssqqddssvv{{xxvvvvxxvvvvxxxxxxvvxxxxxx{{{{vvvvvvxxxxxxxxvvxxssxxssvvvvxxvvssxxvvvvZZllnnggii::0000__llnnllggiiggSSlliiddggggggiidddd77----5555((ssssnnggqqvvssssssvvvvssssvvssssssssvvxxxxbbqqxxxxxxxxvvssvvvvxxvvssvvvvvvvvvvqqvvxxnnKKllllssssssssvvssqqqqqqssqqqqUUiissvvvvvvxxxxvvvvvvxxvvvvxxxx{{{{xxnnvvss{{{{vvxxxxxxssxxvvvvvvvvvvssssssqqXXllnngg::550000SSddiiiiggiiggSSgggggglliiddggddggPP--005577((ssssnnggqqvvssssssvvvvssssvvssssssssvvxxxxbbqqxxxxxxxxvvssvvvvxxvvssvvvvvvvvvvqqvvxxnnKKllllssssssssvvssqqqqqqssqqqqUUiissvvvvvvxxxxvvvvvvxxvvvvxxxx{{{{xxnnvvss{{{{vvxxxxxxssxxvvvvvvvvvvssssssqqXXllnngg::550000SSddiiiiggiiggSSgggggglliiddggddggPP--005577((vvssnniiqqxxqqssvvvvqqqqqqqqssssssssvvssvv]]vvvvssvvvvvvssssvvvvvvssssvvxxvvssqqssvvll<<iillvvssssssssvvqqnnqqqqqqqqggnnssvvvvvvvvxxxxvvxxvvvvvvxxvvxx{{xxqqssnnxx{{ssssxxvvnnvvvvxxvvvvssssssqqqqUUiigg::2222----PPggllggggiiggPPggggddlliiggllbbggAA--005555((vvssnniiqqxxqqssvvvvqqqqqqqqssssssssvvssvv]]vvvvssvvvvvvssssvvvvvvssssvvxxvvssqqssvvll<<iillvvssssssssvvqqnnqqqqqqqqggnnssvvvvvvvvxxxxvvxxvvvvvvxxvvxx{{xxqqssnnxx{{ssssxxvvnnvvvvxxvvvvssssssqqqqUUiigg::2222----PPggllggggiiggPPggggddlliiggllbbggAA--005555((ssqqllllnnssssssssssssssqqqqssssssqqssvvnn__vvvvxxvvvvssssssvvxxvvssvvvvxxxxvvssSSqqggIIggiissqqqqssssssqqqqnnqqqqqq__nnssssvvvvvvvvssvvvvssvvvvvvvvxxxxxxssnnvvssvvssvvvvssqqvvssssvvvvvvssvvqqqqUUgg<<222200----SSiiddiillllllSSllddddggggbbggbbggII--++225522ssqqllllnnssssssssssssssqqqqssssssqqssvvnn__vvvvxxvvvvssssssvvxxvvssvvvvxxxxvvssSSqqggIIggiissqqqqssssssqqqqnnqqqqqq__nnssssvvvvvvvvssvvvvssvvvvvvvvxxxxxxssnnvvssvvssvvvvssqqvvssssvvvvvvssvvqqqqUUgg<<222200----SSiiddiillllllSSllddddggggbbggbbggII--++225522ssqqllggllnnqqssqqqqqqqqnnqqqqqqqqssqqqqnnZZqqvvxxssssvvqqssvvvvxxqqssvvvvvvssiinngg__iiXXiinnnnUU--qqssssqqqqqqssqqddllvvssssvvssxxvvvvxxvvvvvvvvvvvvvvvvssnnssssvvssvvssssssvvqqvvssssssssssnnssPPAA000055--++++XXiiZZllnnnniiPPddggbbggiiggggbbggDD55&&((2255ssqqllggllnnqqssqqqqqqqqnnqqqqqqqqssqqqqnnZZqqvvxxssssvvqqssvvvvxxqqssvvvvvvssiinngg__iiXXiinnnnUU--qqssssqqqqqqssqqddllvvssssvvssxxvvvvxxvvvvvvvvvvvvvvvvssnnssssvvssvvssssssvvqqvvssssssssssnnssPPAA000055--++++XXiiZZllnnnniiPPddggbbggiiggggbbggDD55&&((2255vvssllggiiqqnnnnqqnniinnnnqqnnqqqqqqssqqnnXXiinnqqssssvvssssqqvvvvssqqssvvsssslllliiFFqqDDggqqqqSS<<ggqqqqqqvvqqnnll]]ssqqvvvvvvssxxvvssvvvvvvvvqqqqssssllllqqvvnnqqqqssnnllnnqqqqqqPPnnqqnnllPPii??2200002200--++ZZllllnnnnllnnNNggddbbggggddggddggKK00##((2222vvssllggiiqqnnnnqqnniinnnnqqnnqqqqqqssqqnnXXiinnqqssssvvssssqqvvvvssqqssvvsssslllliiFFqqDDggqqqqSS<<ggqqqqqqvvqqnnll]]ssqqvvvvvvssxxvvssvvvvvvvvqqqqssssllllqqvvnnqqqqssnnllnnqqqqqqPPnnqqnnllPPii??2200002200--++ZZllllnnnnllnnNNggddbbggggddggddggKK00##((2222ssqqiiggddnnnnnnnnlliillllqqqqqqssssnnqqqqXXnnqqqqnnqqvvqqnnssssqqnnnnnnnnnnlliillnnNNbb22ggnn]]iiXXiillqqnnssqqllnnXXnnnnllvvssnnxxvvvvssqqssqqllllnnggnnggiiqqlllliiggdd__XXZZZZSSPPIIKKnnxxvvII220000--22--++++XXllllllnnllllNNddddddggggbbggddggII22##((0000ssqqiiggddnnnnnnnnlliillllqqqqqqssssnnqqqqXXnnqqqqnnqqvvqqnnssssqqnnnnnnnnnnlliillnnNNbb22ggnn]]iiXXiillqqnnssqqllnnXXnnnnllvvssnnxxvvvvssqqssqqllllnnggnnggiiqqlllliiggdd__XXZZZZSSPPIIKKnnxxvvII220000--22--++++XXllllllnnllllNNddddddggggbbggddggII22##((0000ssssiiddddlllliiiillggiiiiqqqqqqqqssnnnnllXXnnllllqqnnqqllnniinnllnnllqqqqgglliinnnnPPiiAAddiibbggbbiinnllnnnnnnggddZZ__]]ZZXXSSUUUUSSSSSSSSSSXXXXZZ]]__ggddbblliiiillbbiiggbb____ggggllNNllvvPP000000----00--((++XXllllnnlliillNNddddddddggbbggddiiKK5555&&((--ssssiiddddlllliiiillggiiiiqqqqqqqqssnnnnllXXnnllllqqnnqqllnniinnllnnllqqqqgglliinnnnPPiiAAddiibbggbbiinnllnnnnnnggddZZ__]]ZZXXSSUUUUSSSSSSSSSSXXXXZZ]]__ggddbblliiiillbbiiggbb____ggggllNNllvvPP000000----00--((++XXllllnnlliillNNddddddddggbbggddiiKK5555&&((--ssqqii__bbZZiiddggggddiiddqqqqllllnnllggnnXXnnddqqqqnnsslllllliiggddddbb]]__XXSSPPPPNNFFDDFFAANNIIPPIIXXZZ]]]]____ddggiinn__lliinnllllggllssiillssllqqllnniinnssnniinniiiillggggggiibbddPPiiZZ220000------00--++++NNnnllnniiggddKKdddd__ddggggggddiiPPDD??!!++--ssqqii__bbZZiiddggggddiiddqqqqllllnnllggnnXXnnddqqqqnnsslllllliiggddddbb]]__XXSSPPPPNNFFDDFFAANNIIPPIIXXZZ]]]]____ddggiinn__lliinnllllggllssiillssllqqllnniinnssnniinniiiillggggggiibbddPPiiZZ220000------00--++++NNnnllnniiggddKKdddd__ddggggggddiiPPDD??!!++--qqqqbbSS]]bbgg]]ZZUUFFPPUUNNKKNNKKIIFFFFAAIIKKNNIIKKPPSSNNSSZZPPUUddggddddddggggggggggNN__!!]]ggbbggddiillnniiiiqqqqllssssvvnnnnnnqqssnnssssvvnnqqnnllnnnnnnllqqssllggiillllllnnggggllllIIXX220000----++--++((((NNlllliilliiddNNddbbbbddddddggbbiiXXUUDD##++++qqqqbbSS]]bbgg]]ZZUUFFPPUUNNKKNNKKIIFFFFAAIIKKNNIIKKPPSSNNSSZZPPUUddggddddddggggggggggNN__!!]]ggbbggddiillnniiiiqqqqllssssvvnnnnnnqqssnnssssvvnnqqnnllnnnnnnllqqssllggiillllllnnggggllllIIXX220000----++--++((((NNlllliilliiddNNddbbbbddddddggbbiiXXUUDD##++++lliiPPIIiiqqnnFFIIFFXX__ZZ____ZZZZPPbblliiiiggiiiiiinnnnddiiqqllnnnnggiiiillllllllggiiiidd::XX__XXggggiilliinnlliiiiiillvvssvvqqiiqqnniinnssqqllggllggggggggiissnniiiissiillnnvviiggiiiiFF222200------++++++((KKnnllggllggggKKdd______bbddggddggUUUUPP55&&--lliiPPIIiiqqnnFFIIFFXX__ZZ____ZZZZPPbblliiiiggiiiiiinnnnddiiqqllnnnnggiiiillllllllggiiiidd::XX__XXggggiilliinnlliiiiiillvvssvvqqiiqqnniinnssqqllggllggggggggiissnniiiissiillnnvviiggiiiiFF222200------++++++((KKnnllggllggggKKdd______bbddggddggUUUUPP55&&--iiggXXPPggnnddFFXX__]]ZZ____bbbbgggggglliinnnnqqqqssllnnnnssssnnqqnnnniiggiiggiiggiiiiggbb0022ZZbbbbbbggiiiinnllnnllggllssqqssnnlllliillssqqnnnnllnnnniilllliillii__nnll__ddnnqqdd____]]<<7700----++FF++++((++IInnllggllggddIIddbb]]____bbddbbggXXUUDD&&((00iiggXXPPggnnddFFXX__]]ZZ____bbbbgggggglliinnnnqqqqssllnnnnssssnnqqnnnniiggiiggiiggiiiiggbb0022ZZbbbbbbggiiiinnllnnllggllssqqssnnlllliillssqqnnnnllnnnniilllliillii__nnll__ddnnqqdd____]]<<7700----++FF++++((++IInnllggllggddIIddbb]]____bbddbbggXXUUDD&&((00iiggZZUUnnqqllIIdd__ZZ]]____bbggiillggiiiissllqqssvvvvssqqssvvssssqqssssqqqqnnllggllqqiiiiDDDDXX__bbbb__bbggiiiiiibbddllqqssqqiiddggnniiggnnlliillnniinnnnqqnnlllliigg______llbbbbZZFF00--&&&&++((II]]++++++((KKggbbddZZggggKKbb__]]__ddbbbbbbddSSUUAA!!!!00iiggZZUUnnqqllIIdd__ZZ]]____bbggiillggiiiissllqqssvvvvssqqssvvssssqqssssqqqqnnllggllqqiiiiDDDDXX__bbbb__bbggiiiiiibbddllqqssqqiiddggnniiggnnlliillnniinnnnqqnnlllliigg______llbbbbZZFF00--&&&&++((II]]++++++((KKggbbddZZggggKKbb__]]__ddbbbbbbddSSUUAA!!!!00ggggUUIIqqssiiAAUUZZbb__ddddddiiiinnnnllnnssllssqqssssqqnnnnnnnnlliilllllllliiggiiggggggii__UU<<bbggddggddggiibbnnllbbllllggnnsslliilliillllggnniiqqiinnqqssnniiggddgg]]]]SS??FFIIAA++++++&&++((KKSSZZ++++((((NNiigg]]__iiggII______]]bbbbdd__bbNNSSDD##--ggggUUIIqqssiiAAUUZZbb__ddddddiiiinnnnllnnssllssqqssssqqnnnnnnnnlliilllllllliiggiiggggggii__UU<<bbggddggddggiibbnnllbbllllggnnsslliilliillllggnniiqqiinnqqssnniiggddgg]]]]SS??FFIIAA++++++&&++((KKSSZZ++++((((NNiigg]]__iiggII______]]bbbbdd__bbNNSSDD##--iiiiZZZZssvvnnAA]]]]__iiiiggddggggbbnnnnnnnnllnnnnqqiiiiiillllllnnllnnlllliiggggiiggiiggdd__??<<]]bbddddggggiiiiggdd]]__XXSSNNFFAA7722++&&!!##&&######&&&&&&&&22NNKK77++((&&&&&&&&!!##((&&##&&::PPUUUU((((((((KKiiiiiiiillggFF]]]]ZZ______bb____KKSS22!!&&iiiiZZZZssvvnnAA]]]]__iiiiggddggggbbnnnnnnnnllnnnnqqiiiiiillllllnnllnnlllliiggggiiggiiggdd__??<<]]bbddddggggiiiiggdd]]__XXSSNNFFAA7722++&&!!##&&######&&&&&&&&22NNKK77++((&&&&&&&&!!##((&&##&&::PPUUUU((((((((KKiiiiiiiillggFF]]]]ZZ______bb____KKSS22!!&&lliiZZUUssssllDDXX]]bb__ddggllbbgggggg]]ddll__ddddddggggddggiiiiiidd__]]UUNNFF<<::55--++##!!##!!####!!!!!!##((((&&&&((((++0000555555777755222222--AA((!!!!++!!&&&&####AA??NNPPPP((&&((((FFiiddggiiiiiiII]]ZZZZ__]]]]______PPSS<<lliiZZUUssssllDDXX]]bb__ddggllbbgggggg]]ddll__ddddddggggddggiiiiiidd__]]UUNNFF<<::55--++##!!##!!####!!!!!!##((((&&&&((((++0000555555777755222222--AA((!!!!++!!&&&&####AA??NNPPPP((&&((((FFiiddggiiiiiiII]]ZZZZ__]]]]______PPSS<<II??55227722--5577FFFFAAAA<<77++--&&##!!!!!!!!!!##########!!!!!!######&&++&&((------0000--00++&&--77--00++&&!!!!
+
+
+
+
+
+((((##!!<<PP77FFIIII&&&&&&&&AAggddggggddddII__ZZZZ]]__]]__ZZ]]PPSSII!!!!II??55227722--5577FFFFAAAA<<77++--&&##!!!!!!!!!!##########!!!!!!######&&++&&((------0000--00++&&--77--00++&&!!!!
+
+
+
+
+
+((((##!!<<PP77FFIIII&&&&&&&&AAggddggggddddII__ZZZZ]]__]]__ZZ]]PPSSII!!!!++++++++((++!!++&&++++0000000000--2255770000++++&&!!!!
+
+&&!!77<<NN22AAIIII&&##&&&&<<ggggggbb__ddII]]]]ZZZZZZ__]]]]]]PPNNPP++++++++((++!!++&&++++0000000000--2255770000++++&&!!!!
+
+&&!!77<<NN22AAIIII&&##&&&&<<ggggggbb__ddII]]]]ZZZZZZ__]]]]]]PPNNPP++++++((++++##((!!
+
+22<<
+
+!!5522::KK55AAFFFF####&&##AAggiiggdd____IIZZZZZZZZZZ]]]]ZZ]]XXIIUU22++++++((++++##((!!
+
+22<<
+
+!!5522::KK55AAFFFF####&&##AAggiiggdd____IIZZZZZZZZZZ]]]]ZZ]]XXIIUU22((((&&++++++((55
+
+((????IIDD77!!##002277AA22AADDAA####&&!!::iiggiiggggggFFUUZZZZZZZZZZZZZZ]]ZZ??SSZZ((((&&++++++((55
+
+((????IIDD77!!##002277AA22AADDAA####&&!!::iiggiiggggggFFUUZZZZZZZZZZZZZZ]]ZZ??SSZZ((&&((++((((((::FFFFDDFFIIFFFFDD::00!!&&55::<<AA<<<<AADD##!!&&!!??ggggggggddggFFUUZZUUZZUUZZZZXXZZZZ??UUii((&&((++((((((::FFFFDDFFIIFFFFDD::00!!&&55::<<AA<<<<AADD##!!&&!!??ggggggggddggFFUUZZUUZZUUZZZZXXZZZZ??UUii&&&&((((((((&&77
+
+IIDDDDIIDDII<<
+
+&&5577::<<<<::<<AA##!!##<<ddggddggddddIIUUUUSSUUXXXXUUUUXXXXIISSii++&&&&((((((((&&77
+
+IIDDDDIIDDII<<
+
+&&5577::<<<<::<<AA##!!##<<ddggddggddddIIUUUUSSUUXXXXUUUUXXXXIISSii++((&&((((((((<<NNIIFFDD??::
+
+((22::::<<::::::??!!####55bbggddddddddIIUUSSUUUUUUSSXXSSUUUUUUPPllXX((&&((((((((<<NNIIFFDD??::
+
+((22::::<<::::::??!!####55bbggddddddddIIUUSSUUUUUUSSXXSSUUUUUUPPllXX&&((((((&&((00--??
+
+((DD22
+
+&&++775500007777<<!!!!##!!22__ddddbbddddKKUUSSUUSSSSSSUUUUSSSSZZSSiigg&&((((((&&((00--??
+
+((DD22
+
+&&++775500007777<<!!!!##!!22__ddddbbddddKKUUSSUUSSSSSSUUUUSSSSZZSSiigg--((((((((((00<<<<
+
+PPSSFFIISS<<FFAAAA<<&&55??<<::::::55::!!####00__bbddbbddddPPUUSSSSPPPPSSUUPPSSSS]]SSllii----((((((((((00<<<<
+
+PPSSFFIISS<<FFAAAA<<&&55??<<::::::55::!!####00__bbddbbddddPPUUSSSSPPPPSSUUPPSSSS]]SSllii--77((((((&&((55AA??
+
+AAAA::<<PP??--00::77&&55DD??5555::77::!!!!##--ZZ____bbbbbbPPUUPPSSPPNNSSPPSSSSSSddUUllllXX77((((((&&((55AA??
+
+AAAA::<<PP??--00::77&&55DD??5555::77::!!!!##--ZZ____bbbbbbPPUUPPSSPPNNSSPPSSSSSSddUUllllXX::((((&&((&&22KK++!!
+
+&&55DDAA<<22::::::!!##00____bb____]]KKPPNNNNPPNNPPPPSSSSPPggUUllnnll::((((&&((&&22KK++!!
+
+&&55DDAA<<22::::::!!##00____bb____]]KKPPNNNNPPNNPPPPSSSSPPggUUllnnll77((((&&((&&00<<##
+
+((55<<<<<<0077::<<!!##22]]bb__ZZZZXXFFPPNNNNNNKKNNPPPPSSPPggUUllllii77((((&&((&&00<<##
+
+((55<<<<<<0077::<<!!##22]]bb__ZZZZXXFFPPNNNNNNKKNNPPPPSSPPggUUllllii22((((&&&&((++AA00((55AA??<<0077::<<##22ZZZZ]]XXZZZZAAPPPPNNKKNNPPNNPPSSPPggUUggllii22((((&&&&((++AA00((55AA??<<0077::<<##22ZZZZ]]XXZZZZAAPPPPNNKKNNPPNNPPSSPPggUUggllii22((&&&&&&&&<<AA((77::AA??0055::::!!##22ZZXXXXZZZZXXDDPPPPPPNNKKNNPPPPPPPPggSSiiiill22((&&&&&&&&<<AA((77::AA??0055::::!!##22ZZXXXXZZZZXXDDPPPPPPNNKKNNPPPPPPPPggSSiiiill55&&&&&&&&&&&&77
+
+&&22??::??225577::!!!!((SSUUXXZZZZSSKKNNNNNNNNKKPPNNPPPPNNiiPPiiiiii55&&&&&&&&&&&&77
+
+&&22??::??225577::!!!!((SSUUXXZZZZSSKKNNNNNNNNKKPPNNPPPPNNiiPPiiiiii77((&&&&&&&&((::&&22AAAAAA225577::!!--SSUUXX]]]]XXIINNNNPPKKKKNNNNNNPPPPiiSSggiiii77((&&&&&&&&((::&&22AAAAAA225577::!!--SSUUXX]]]]XXIINNNNPPKKKKNNNNNNPPPPiiSSggiiii77&&&&&&&&##++AA      ##00<<??AA225577::!!!!&&SSXXUUXXZZUUNNNNNNNNPPNNNNNNNNPPNNiiPPggiiii77&&&&&&&&##++AA      ##00<<??AA225577::!!!!&&SSXXUUXXZZUUNNNNNNNNPPNNNNNNNNPPNNiiPPggiiii77&&&&&&&&##((??  ##22AA??FF00557777!!((SSUUZZXXZZUUNNNNNNNNNNKKNNNNNNPPNNggNNddiiii77&&&&&&&&##((??  ##22AA??FF00557777!!((SSUUZZXXZZUUNNNNNNNNNNKKNNNNNNPPNNggNNddiiii55&&&&&&&&&&&&AA
+
+  &&22AAFFAA22557777!!((SSXXZZXXXXUUNNNNKKKKNNKKNNNNNNPPNNggPPddiiii55&&&&&&&&&&&&AA
+
+  &&22AAFFAA22557777!!((SSXXZZXXXXUUNNNNKKKKNNKKNNNNNNPPNNggPPddiiii00&&&&##&&&&&&DD
+
+
+
+  ##22AAAAAA2277++!!&&UUXXSSZZZZUUNNNNNNKKKKNNNNKKNNNNNNddSSggddii00&&&&##&&&&&&DD
+
+
+
+  ##22AAAAAA2277++!!&&UUXXSSZZZZUUNNNNNNKKKKNNNNKKNNNNNNddSSggddii00&&####&&&&&&FF  
+
+  
+
+##22DD::<<22!!##--UUXXZZXXXXXXPPKKNNNNNNKKKKNNPPPPNN]]PPbbggll00&&####&&&&&&FF  
+
+  
+
+##22DD::<<22!!##--UUXXZZXXXXXXPPKKNNNNNNKKKKNNPPPPNN]]PPbbggll00&&####&&&&&&DD    
+
+    --::<<++2277!!##SSXXXXXXXXXXUUKKKKNNKKNNKKNNNNPPPPPPSSggddii00&&####&&&&&&DD    
+
+    --::<<++2277!!##SSXXXXXXXXXXUUKKKKNNKKNNKKNNNNPPPPPPSSggddii--&&####&&&&((??      --<<##555577##&&SSUUXXXXUUXXSSKKNNKKNNPPNNKKNNNNNN__XXggddii--&&####&&&&((??      --<<##555577##&&SSUUXXXXUUXXSSKKNNKKNNPPNNKKNNNNNN__XXggddii22&&##((((00&&<<      ::55225555!!##SSUUXXUUXXZZSSKKKKKKNNNNKKKKKKNNKK__ZZZZgggg22&&##((((00&&<<      ::55225555!!##SSUUXXUUXXZZSSKKKKKKNNNNKKKKKKNNKK__ZZZZgggg++&&########++AA      00??<<22222277!!!!&&SSUUUUUUSSXXSSIIKKKKKKKKKKKKKKNNKKXXXXggddbb++&&########++AA      00??<<22222277!!!!&&SSUUUUUUSSXXSSIIKKKKKKKKKKKKKKNNKKXXXXggddbb((##########&&AA          
+
+      --::<<AA55225577!!!!##PPUUUUUUXXZZSSIIKKKKNNKKIIIIKKKKKKddggbbbbgg((##########&&AA          
+
+      --::<<AA55225577!!!!##PPUUUUUUXXZZSSIIKKKKNNKKIIIIKKKKKKddggbbbbgg&&##########((??            
+
+        ++7777::55225577!!##PPSSUUPPUUUUPPKKKKKKKKKKKKKKKKKKKKiigg]]gggg&&##########((??            
+
+        ++7777::55225577!!##PPSSUUPPUUUUPPKKKKKKKKKKKKKKKKKKKKiigg]]gggg!!##########&&<<                
+
+              &&00227700225577!!!!##SSSSUUSSSSSSNNIIKKKKKKKKKKKKKKKKKKgg______ZZ!!##########&&<<                
+
+              &&00227700225577!!!!##SSSSUUSSSSSSNNIIKKKKKKKKKKKKKKKKKKgg______ZZ##########&&<<                
+
+
+
+              ##((--0000002255--++PPPPUUSSUUSSNNIIIIKKKKKKKKIIIIIIII__]]__]]XX##########&&<<                
+
+
+
+              ##((--0000002255--++PPPPUUSSUUSSNNIIIIKKKKKKKKIIIIIIII__]]__]]XX!!##########((??          
+
+          ##0000----000022!!KK55NNKKPPSSSSSSNNFFIIIIIIKKKKIIIIIIIIddZZ__SS]]!!##########((??          
+
+          ##0000----000022!!KK55NNKKPPSSSSSSNNFFIIIIIIKKKKIIIIIIIIddZZ__SS]]############&&<<              
+
+        &&2255220000--00KK::NNNNNNPPSSPPKKFFIIKKIIKKIIIIKKKKII____NN__]]############&&<<              
+
+        &&2255220000--00KK::NNNNNNPPSSPPKKFFIIKKIIKKIIIIKKKKII____NN__]]############((??                      
+
+!!((22::77--000022!!####NNPPPPPPSSSSKKIIIIIIIIIIKKKKKKIIIIbbUUXX]]SS############((??                      
+
+!!((22::77--000022!!####NNPPPPPPSSSSKKIIIIIIIIIIKKKKKKIIIIbbUUXX]]SS############00<<                              !!++777755--000022!!!!##PPSSPPPPSSPPKKIIIIIIIIKKKKIIKKKKIIXXbb__ZZII############00<<                              !!++777755--000022!!!!##PPSSPPPPSSPPKKIIIIIIIIKKKKIIKKKKIIXXbb__ZZII######!!####00<<                
+
+            ##++77557700000022!!!!##PPNNUUUUUUNNIIIIIIIIKKIIKKIIKKIIIIdddd__SSNN######!!####00<<                
+
+            ##++77557700000022!!!!##PPNNUUUUUUNNIIIIIIIIKKIIKKIIKKIIIIdddd__SSNN######!!####++<<                            ++0000!!&&22225500000022!!##PPPPSSSSSSNNIIIIIIIIIIKKKKIIKKIIFF__ddUUPPII######!!####++<<                            ++0000!!&&22225500000022!!##PPPPSSSSSSNNIIIIIIIIIIKKKKIIKKIIFF__ddUUPPII####!!####&&((::                            --2277&&555555--002255!!##NNNNPPSSSSPPKKFFIIIIIIIIKKKKKKIIIIIISSII????####!!####&&((::                            --2277&&555555--002255!!##NNNNPPSSSSPPKKFFIIIIIIIIKKKKKKIIIIIISSII????####!!####&&++::                  
+
+    22::55
+
+!!&&555500--000055!!!!##NNXXSSPPSSPPKKDDFFIIIIIIIIIIIIIIFF??UUUUSS<<####!!####&&++::                  
+
+    22::55
+
+!!&&555500--000055!!!!##NNXXSSPPSSPPKKDDFFIIIIIIIIIIIIIIFF??UUUUSS<<##!!!!##!!&&22--                        
+
+&&55555500002255!!##KKNNPPPPPPPPKKAADDDDIIFFIIIIIIIIII]]ZZUUDDFF##!!!!##!!&&22--                        
+
+&&55555500002255!!##KKNNPPPPPPPPKKAADDDDIIFFIIIIIIIIII]]ZZUUDDFF<<!!!!!!!!##++77                              ##77552200552222!!##IINNKKPPPPPPIIIIDDAADDFFFFFFIIIIFFKKDDAA7722<<!!!!!!!!##++77                              ##77552200552222!!##IINNKKPPPPPPIIIIDDAADDFFFFFFIIIIFFKKDDAA7722!!!!####!!##++55                    
+
+
+
+
+
+&&22550000222222::--IINNNNPPPPNNIIDDDDDDDDDDFFFFFFIIIIFFNNAA7777!!!!####!!##++55                    
+
+
+
+
+
+&&22550000222222::--IINNNNPPPPNNIIDDDDDDDDDDFFFFFFIIIIFFNNAA7777##!!!!!!!!!!++55                  
+
+
+
+  ##55552200000000##77DDAAKKKKNNKKNNKKIIAAFFDDDDDDDDFFFFIIIIIIFFIIAA::##!!!!!!!!!!++55                  
+
+
+
+  ##55552200000000##77DDAAKKKKNNKKNNKKIIAAFFDDDDDDDDFFFFIIIIIIFFIIAA::!!!!!!!!##!!&&77                    ((--&&
+
+  ##222200000000--##55FFAAIIKKKKNNKKKKIIAADDDDDDDDDDDDIIFFFF??::2255AA!!!!!!!!##!!&&77                    ((--&&
+
+  ##222200000000--##55FFAAIIKKKKNNKKKKIIAADDDDDDDDDDDDIIFFFF??::2255AA##!!!!!!##!!!!&&            &&++((  !!222200----0000##55DDAAIIIIIIKKKKKKIIAADDDDDDDDDDFFFFFFDDII22--2277##!!!!!!##!!!!&&            &&++((  !!222200----0000##55DDAAIIIIIIKKKKKKIIAADDDDDDDDDDFFFFFFDDII22--2277!!!!##!!!!!!&&55              ##++((++++++&&  !!00--00----0000##55<<DDFFIIIIIIIIIIII??FFDDDDDDFFFFFFFFFFDD((&&22<<!!!!##!!!!!!&&55              ##++((++++++&&  !!00--00----0000##55<<DDFFIIIIIIIIIIII??FFDDDDDDFFFFFFFFFFDD((&&22<<!!!!!!!!!!!!##22                      ++++++++++++++++----0000--  ++00--++----&&22::AA<<FFIIIIIIIIIIII??DDDDDDFFFFDDFFDDDDAA++00::<<!!!!!!!!!!!!##22                      ++++++++++++++++----0000--  ++00--++----&&22::AA<<FFIIIIIIIIIIII??DDDDDDFFFFDDFFDDDDAA++00::<<!!!!########&&22                &&++++&&&&##++++--((&&  ##((--++##227755DDFFIIIIIIFFFF::DDFFFFFFFFFFDDFFDDFF0055AA55!!!!########&&22                &&++++&&&&##++++--((&&  ##((--++##227755DDFFIIIIIIFFFF::DDFFFFFFFFFFDDFFDDFF0055AA55!!!!!!##!!!!((55                ##!!&&&&((22557777::777722&&&&##&&22::77DDDDFFIIFFIIFF::DDDDDDDDFFAADDAAAA??2222AA((!!!!!!##!!!!((55                ##!!&&&&((22557777::777722&&&&##&&22::77DDDDFFIIFFIIFF::DDDDDDDDFFAADDAAAA??2222AA((!!!!!!!!&&++77                  !!##555555--!!##&&##!!--5577::55##!!--++
+
+55DD##22!!AA??00<<IIDDIIIIFF::AADDAAFFDDAAAADDAA<<<<00::!!!!!!!!!!&&++77                  !!##555555--!!##&&##!!--5577::55##!!--++
+
+55DD##22!!AA??00<<IIDDIIIIFF::AADDAAFFDDAAAADDAA<<<<00::!!!!!!!!!!!!&&??                    ##555555++--0000##&&++0000((--7777::22--0000
+
+++??((0022DD::::DDFFIIIIFF::AADDAAAAAAAA??AADD<<::2222!!!!!!!!!!!!&&??                    ##555555++--0000##&&++0000((--7777::22--0000
+
+++??((0022DD::::DDFFIIIIFF::AADDAAAAAAAA??AADD<<::2222!!!!!!!!!!!!--::                        &&##((222255&&00&&2222222222772222((777777::((((22--
+
+((FFFF2200DDFFFFIIFF::AADDAAAA??????AAAA00??22--77!!!!!!!!!!--::                        &&##((222255&&00&&2222222222772222((777777::((((22--
+
+((FFFF2200DDFFFFIIFF::AADDAAAA??????AAAA00??22--77!!!!!!!!!!!!--55                                  
+
+##!!((--0022&&++00++++2222++00&&5555&&22++777777::--++--00++KKFFAAAADDFFFFIIAA77??AAAA????<<AA????005555++--!!!!!!!!!!!!--55                                  
+
+##!!((--0022&&++00++++2222++00&&5555&&22++777777::--++--00++KKFFAAAADDFFFFIIAA77??AAAA????<<AA????005555++--!!!!!!!!!!!!((55                            !!!!((--0022++++22((000022((!!0022225522((--22775577::--((00--
+
+!!!!AADDDDFFFFDDDD77AA????????<<??????--7755++!!!!!!!!!!!!!!((55                            !!!!((--0022++++22((000022((!!0022225522((--22775577::--((00--
+
+!!!!AADDDDFFFFDDDD77AA????????<<??????--7755++!!!!!!!!!!##!!((55                            !!##++000000((++0000----++00555555((&&####!!::((----
+
+
+
+!!!!AAAADDDDDDDDDD55????????<<::<<??<<--0000++##!!!!!!!!##!!((55                            !!##++000000((++0000----++00555555((&&####!!::((----
+
+
+
+!!!!AAAADDDDDDDDDD55????????<<::<<??<<--0000++##!!!!!!!!!!!!&&22                            !!++----00++&&222200<<<<??22##&&2255775500++0022557777----
+
+
+
+
+
+
+
+
+
+!!!!AAAAAAAADDDDDD55??<<??<<<<<<<<<<??++2200((&&!!!!!!!!!!!!&&22                            !!++----00++&&222200<<<<??22##&&2255775500++0022557777----
+
+
+
+
+
+
+
+
+
+!!!!AAAAAAAADDDDDD55??<<??<<<<<<<<<<??++2200((&&!!!!!!!!!!!!##--                            &&++--0000((&&222255<<AA??77::--++5500--555555555500!!--##
+
+!!!!AADDAAAADDDDDD22??????<<<<<<??????22##00((!!!!!!!!!!!!!!##--                            &&++--0000((&&222255<<AA??77::--++5500--555555555500!!--##
+
+!!!!AADDAAAADDDDDD22??????<<<<<<??????22##00((!!!!!!!!!!!!##00                              !!##++++--0000++00++++55::22557777&&2222++--&&--0022++++--((&&&&!!((!!!!??AAAAAADDAADD22????<<<<AA<<<<??<<--!!--((&&!!!!!!!!!!##00                              !!##++++--0000++00++++55::22557777&&2222++--&&--0022++++--((&&&&!!((!!!!??AAAAAADDAADD22????<<<<AA<<<<??<<--!!--((&&!!!!!!!!!!&&22                              ((--++----00++##22--((::++5555!!00!!&&##77777777((&&!!++
+
+
+
+
+
+!!??AA??AAAAAADD22<<??<<<<<<<<<<<<<<((!!--&&--!!!!!!!!!!&&22                              ((--++----00++##22--((::++5555!!00!!&&##77777777((&&!!++
+
+
+
+
+
+!!??AA??AAAAAADD22<<??<<<<<<<<<<<<<<((!!--&&--!!!!!!!!##22                      !!((++----0000++&&2222--22--++&&!!::::::::((++++!!##&&##((####&&00<<??????AAAAAA00<<<<<<<<<<<<<<<<<<&&&&22((!!!!!!!!##22                      !!((++----0000++&&2222--22--++&&!!::::::::((++++!!##&&##((####&&00<<??????AAAAAA00<<<<<<<<<<<<<<<<<<&&&&22((!!!!!!!!!!&&00
+
+                    &&++++++------((((!!--002255--##((++((77::7777&&++++&&!!##
+
+((((++--00<<AA<<??AA????00??<<<<<<??<<<<<<<<&&&&00((!!!!!!!!!!&&00
+
+                    &&++++++------((((!!--002255--##((++((77::7777&&++++&&!!##
+
+((((++--00<<AA<<??AA????00??<<<<<<??<<<<<<<<&&&&00((!!!!!!!!!!++22
+
+
+
+                      ((((&&((&&!!--&&000000((!!((++--!!::777777((++--00##
+
+((++0000<<??<<<<??????00<<<<????<<<<<<::::&&&&22&&!!!!!!!!!!++22
+
+
+
+                      ((((&&((&&!!--&&000000((!!((++--!!::777777((++--00##
+
+((++0000<<??<<<<??????00<<<<????<<<<<<::::&&&&22&&!!!!!!!!!!++22
+
+
+
+                    
+
+((((&&--++((--0000##&&!!&&((--552255&&++--22----++--00::<<::<<AAAAAA00<<<<<<<<<<<<<<<<::##&&--&&##!!!!!!!!!!++22
+
+
+
+                    
+
+((((&&--++((--0000##&&!!&&((--552255&&++--22----++--00::<<::<<AAAAAA00<<<<<<<<<<<<<<<<::##&&--&&##!!!!!!!!--77
+
+
+
+          ##((((((!!##----!!--++--++####!!&&++&&!!!!&&--&&22##----
+
+##((--00::<<::<<AAAA??00::::??::<<::<<<<::&&((++##!!!!!!!!--77
+
+
+
+          ##((((((!!##----!!--++--++####!!&&++&&!!!!&&--&&22##----
+
+##((--00::<<::<<AAAA??00::::??::<<::<<<<::&&((++##!!!!0055
+
+
+
+          
+
+##((((!!------&&00++--((((((((((!!((22&&++22!!----
+
+&&++((  ::<<<<<<????<<--::<<::<<::<<<<<<::&&&&++##!!!!0055
+
+
+
+          
+
+##((((!!------&&00++--((((((((((!!((22&&++22!!----
+
+&&++((  ::<<<<<<????<<--::<<::<<::<<<<<<::&&&&++##!!!!!!((00
+
+
+
+          
+
+##&&((------((&&&&--&&((&&++++##225500&&((--
+
+--00((&&      ::::<<<<????AA--<<<<<<<<::<<::::::&&((--&&
+
+!!!!!!((00
+
+
+
+          
+
+##&&((------((&&&&--&&((&&++++##225500&&((--
+
+--00((&&      ::::<<<<????AA--<<<<<<<<::<<::::::&&((--&&
+
+!!!!!!!!--22
+
+            
+
+##&&((!!##&&((++------((####
+
+&&555500--&&
+
+!!++--((((!!00!!        ::::::<<AA????--::<<<<<<::<<<<<<::--&&++!!!!!!!!!!--22
+
+            
+
+##&&((!!##&&((++------((####
+
+&&555500--&&
+
+!!++--((((!!00!!        ::::::<<AA????--::<<<<<<::<<<<<<::--&&++!!!!!!++00
+
+          
+
+##&&((((++((++++--------00&&!!##!!&&++##((00!!--++##
+
+!!----((++--&&    77::<<<<<<????--<<<<::<<<<<<::<<::++((&&##
+
+!!!!++00
+
+          
+
+##&&((((++((++++--------00&&!!##!!&&++##((00!!--++##
+
+!!----((++--&&    77::<<<<<<????--<<<<::<<<<<<::<<::++((&&##
+
+!!!!&&--
+
+          
+
+##&&&&&&((&&((((++--------##!!!!&&------((00##
+
+++--++++##--&&    7777<<<<<<<<<<--::<<<<::<<<<<<<<<<77&&&&&&!!!!&&--
+
+          
+
+##&&&&&&((&&((((++--------##!!!!&&------((00##
+
+++--++++##--&&    7777<<<<<<<<<<--::<<<<::<<<<<<<<<<77&&&&&&!!++00
+
+          !!&&&&######&&((&&!!((&&((----000000--!!--++##((--((--++      7755<<<<<<<<<<--<<<<::::<<::<<::::00&&&&&&!!++00
+
+          !!&&&&######&&((&&!!((&&((----000000--!!--++##((--((--++      7755<<<<<<<<<<--<<<<::::<<::<<::::00&&&&&&++00
+
+          
+
+####!!##--0000--------000000--####&&&&!!&&++--!!&&++55::<<<<??<<<<++<<::::<<::::::::::22####((
+
+++00
+
+          
+
+####!!##--0000--------000000--####&&&&!!&&++--!!&&++55::<<<<??<<<<++<<::::<<::::::::::22####((
+
+!!((--
+
+                      ####++((00##--000000++((&&++++------##&&&&####++----!!++--((((--
+
+77::<<????<<<<--<<::::::::::::::<<22####((!!((--
+
+                      ####++((00##--000000++((&&++++------##&&&&####++----!!++--((((--
+
+77::<<????<<<<--<<::::::::::::::<<22####((!!++00
+
+              
+
+####!!00((----00&&##--((--((++((&&####&&--0000&&
+
+!!77::<<<<<<<<??00<<::::::::<<::<<<<22##((!!++00
+
+              
+
+####!!00((----00&&##--((--((++((&&####&&--0000&&
+
+!!77::<<<<<<<<??00<<::::::::<<::<<<<22##((((00        !!----!!++++--++!!++##!!((((&&####++00++
+
+##                ++55::<<<<<<<<<<--<<::77::::::<<::<<55&&--((00        !!----!!++++--++!!++##!!((((&&####++00++
+
+##                ++55::<<<<<<<<<<--<<::77::::::<<::<<55&&------        !!++--##++----&&##&&!!!!((--!!##!!##++
+
+&&                    --55::<<<<<<<<<<--::<<::::::77::<<::77++##----        !!++--##++----&&##&&!!!!((--!!##!!##++
+
+&&                    --55::<<<<<<<<<<--::<<::::::77::<<::77++##++++        !!##++--((((&&??++##&&++##                      ++##22::<<::<<<<<<--<<<<::::::::::::::77++&&++++        !!##++--((((&&??++##&&++##                      ++##22::<<::<<<<<<--<<<<::::::::::::::77++&&!!----        
+
+
+
+&&++--++((####<<!!####!!((##                        &&--2277::::::::<<--<<::::::<<::::<<7777&&&&
+
+!!----        
+
+
+
+&&++--++((####<<!!####!!((##                        &&--2277::::::::<<--<<::::::<<::::<<7777&&&&
+
+00((        
+
+!!&&++--++&&!!((--((##                    ++++0077::::::<<<<--::<<::<<::<<::<<<<77&&5500((        
+
+!!&&++--++&&!!((--((##                    ++++0077::::::<<<<--::<<::<<::<<::<<<<77&&5500((        ##((++----((!!!!&&!!
+
+                      
+
+++++0077<<::::::<<--::<<::::<<<<<<<<::77&&++00((        ##((++----((!!!!&&!!
+
+                      
+
+++++0077<<::::::<<--::<<::::<<<<<<<<::77&&++00##                        !!((((++++####((((++((&&&&((&&
+
+!!                  ##00++0055::77::::::--::<<<<::::<<<<<<<<::((++00##                        !!((((++++####((((++((&&&&((&&
+
+!!                  ##00++0055::77::::::--::<<<<::::<<<<<<<<::((++
+
+####                              
+
+!!##&&((((&&!!##&&((++------((((&&
+
+
+
+                              22----77777777::::--<<<<::<<<<::<<??<<::!!++++
+
+####                              
+
+!!##&&((((&&!!##&&((++------((((&&
+
+
+
+                              22----77777777::::--<<<<::<<<<::<<??<<::!!++++00((                                
+
+&&&&&&&&&&##((((++++++--------((!!
+
+##                                      2222--77::77::::::--<<::<<<<<<<<::??<<::##--++00((                                
+
+&&&&&&&&&&##((((++++++--------((!!
+
+##                                      2222--77::77::::::--<<::<<<<<<<<::??<<::##--++00&&                                  
+
+
+
+##((((((((++++--++--++&&
+
+
+
+##
+
+                                                  22----77::7777::7700::::::<<<<::<<<<::<<!!((((FF00&&                                  
+
+
+
+##((((((((++++--++--++&&
+
+
+
+##
+
+                                                  22----77::7777::7700::::::<<<<::<<<<::<<!!((((FF++&&                                    
+
+##&&((++++++++++##
+
+
+
+&&!!                                        ++&&((&&--7777::777777--::::<<<<??::<<<<<<??##&&--ZZ++&&                                    
+
+##&&((++++++++++##
+
+
+
+&&!!                                        ++&&((&&--7777::777777--::::<<<<??::<<<<<<??##&&--ZZ--##                                        
+
+
+
+
+
+  
+
+                                    ((((##++7777::7777770077::::<<<<::::<<<<<<&&++--dd--##                                        
+
+
+
+
+
+  
+
+                                    ((((##++7777::7777770077::::<<<<::::<<<<<<&&++--dd--&&                                          
+
+!!##    
+
+
+
+  
+
+
+
+                              
+
+00&&##((55::7777::7722::7777::<<::::??<<<<++((++gg--&&                                          
+
+!!##    
+
+
+
+  
+
+
+
+                              
+
+00&&##((55::7777::7722::7777::<<::::??<<<<++((++gg--##                                          
+
+
+
+
+
+!!!!!!!!!!####
+
+          
+
+  
+
+
+
+                                !!00--##&&&&777777::77772277::::77<<::::<<<<??((----gg--##                                          
+
+
+
+
+
+!!!!!!!!!!####
+
+          
+
+  
+
+
+
+                                !!00--##&&&&777777::77772277::::77<<::::<<<<??((----gg00&&                                                  
+
+
+
+                    
+
+                                    --00!!##++77::77::::::227777::::::::::<<<<<<&&++--gg00&&                                                  
+
+
+
+                    
+
+                                    --00!!##++77::77::::::227777::::::::::<<<<<<&&++--gg++!!                                                                                    
+
+                              ++++##((::::::::::::55777777::::<<::<<<<<<&&--00dd++!!                                                                                    
+
+                              ++++##((::::::::::::55777777::::<<::<<<<<<&&--00dd++##                                                                              
+
+                                ++((####&&77::::::<<::55::7777::::::<<??<<<<--++--gg++##                                                                              
+
+                                ++((####&&77::::::<<::55::7777::::::<<??<<<<--++--gg&&##                                                                              
+
+                                ##((&&&&##!!##::::::<<<<<<7777777777::::::??<<<<++++--gg&&##                                                                              
+
+                                ##((&&&&##!!##::::::<<<<<<7777777777::::::??<<<<++++--gg((!!                                                                                                                        ##((&&&&####::<<::<<<<<<55::777777::::<<<<<<<<##((--dd((!!                                                                                                                        ##((&&&&####::<<::<<<<<<55::777777::::<<<<<<<<##((--dd++                                                  
+
+
+
+                        &&######::::::<<<<<<55::::::77777777<<::<<##((++bb++                                                  
+
+
+
+                        &&######::::::<<<<<<55::::::77777777<<::<<##((++bb++                                  &&####
+
+##77::::7722::2277::::5577::55::::<<&&++--__++                                  &&####
+
+##77::::7722::2277::::5577::55::::<<&&++--__!!((                                !!####::<<<<<<::7777::<<::22::775577::::&&&&--bb!!((                                !!####::<<<<<<::7777::<<::22::775577::::&&&&--bb!!!!                      !!####!!::::<<<<::::77::::::22<<::7777::::##&&++__!!!!                      !!####!!::::<<<<::::77::::::22<<::7777::::##&&++__!!!!!!
+
+    
+
+
+
+
+
+##!!!!77::<<??<<::::::<<??--7755557777::++##--__!!!!!!
+
+    
+
+
+
+
+
+##!!!!77::<<??<<::::::<<??--7755557777::++##--__!!##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!
+
+!!::<<<<<<??<<77<<<<<<55<<::::::7777&&&&--__!!##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!
+
+!!::<<<<<<??<<77<<<<<<55<<::::::7777&&&&--__!!##!!##((
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!::<<<<<<??<<::<<<<<<22::<<::<<7755&&&&00bb!!##!!##((
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!::<<<<<<??<<::<<<<<<22::<<::<<7755&&&&00bb##((!!!!##++
+
+
+
+
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+##!!::<<<<<<<<55<<<<::<<22<<<<<<<<::55####--__##((!!!!##++
+
+
+
+
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+##!!::<<<<<<<<55<<<<::<<22<<<<<<<<::55####--__##!!##!!####&&
+
+!!!!!!##----&&&&##&&&&##&&&&####&&&&&&&&&&&&&&&&&&&&&&&&##&&&&######!!
+
+::<<<<::<<::::::::<<5577::::775555##!!++bb##!!##!!####&&
+
+!!!!!!##----&&&&##&&&&##&&&&####&&&&&&&&&&&&&&&&&&&&&&&&##&&&&######!!
+
+::<<<<::<<::::::::<<5577::::775555##!!++bb##!!!!!!######!!!!!!!!##&&&&((++&&((((((++++++++((((((((++++((++++++++++((++++++++++++++++++((++++++++&&##++++##!!!!
+
+
+
+
+
+
+
+!!77::::::::::77::::<<22::::77777755##!!++dd##!!!!!!######!!!!!!!!##&&&&((++&&((((((++++++++((((((((++++((++++++++++((++++++++++++++++++((++++++++&&##++++##!!!!
+
+
+
+
+
+
+
+!!77::::::::::77::::<<22::::77777755##!!++dd!!##((((!!&&##!!&&((((++((++((--&&######&&##&&&&&&((((((++((++((((((++--------++++------++++((++--------------++--++++++++((##
+
+
+
+
+
+
+
+
+
+!!((22++<<::::!!22777777++77775522--00777777--5555##--dd!!##((((!!&&##!!&&((((++((++((--&&######&&##&&&&&&((((((++((++((((((++--------++++------++++((++--------------++--++++++++((##
+
+
+
+
+
+
+
+
+
+!!((22++<<::::!!22777777++77775522--00777777--5555##--dd
+
+
+
+
+
+##((55::5500--&&!!!!!!&&&&&&##!!!!++&&&&!!####!!####22??DDAA??<<00
+
+
+
+55--gg
+
+
+
+
+
+##((55::5500--&&!!!!!!&&&&&&##!!!!++&&&&!!####!!####22??DDAA??<<00
+
+
+
+55--gg!!&&&&++&&##&&##++!!##::AADDDDDDDD22
+
+
+
+
+
+!!!!&&##++00dd!!&&&&++&&##&&##++!!##::AADDDDDDDD22
+
+
+
+
+
+!!!!&&##++00dd((((&&((((++++++++----00000000--++!!##!!!!((<<FFFFIIFF??##!!!!!!!!!!##!!00__((((&&((((++++++++----00000000--++!!##!!!!((<<FFFFIIFF??##!!!!!!!!!!##!!00__00--++++++------((000000FF00------##55IIIIDD??FF55
+
+
+
+22______ZZSS<<######!!##!!##&&####!!!!00__00--++++++------((000000FF00------##55IIIIDD??FF55
+
+
+
+22______ZZSS<<######!!##!!##&&####!!!!00__002222SSPP<<KK77--2200NNIIFF((######--00&&##00::::00######((55--##55::::DDIIIIII<<((++++((((--((bbggAA++KKNNbb]]DD77##++dd]]bbgg]]UUUU!!&&##&&!!##!!######&&##&&##00ZZ002222SSPP<<KK77--2200NNIIFF((######--00&&##00::::00######((55--##55::::DDIIIIII<<((++++((((--((bbggAA++KKNNbb]]DD77##++dd]]bbgg]]UUUU!!&&##&&!!##!!######&&##&&##00ZZ((KKbbddggii__dd__ZZ__bbbbZZ]]II++00DDDD00PPggbbiigg__bbddddbb__ggggggddgg__ii__]]dddd]]PPIIbbSSKKKKFFKKKKZZUUSSSSPPiiFF220022007777<<<<AADDDDAA??77____gg__DDAA]]ddggddXXdd]]bb]]]]ZZ]]bb]]XXZZUUUU<<!!!!--XXZZZZZZUUUUUUUUXXXXZZUUXXXXUUKK&&AASS((KKbbddggii__dd__ZZ__bbbbZZ]]II++00DDDD00PPggbbiigg__bbddddbb__ggggggddgg__ii__]]dddd]]PPIIbbSSKKKKFFKKKKZZUUSSSSPPiiFF220022007777<<<<AADDDDAA??77____gg__DDAA]]ddggddXXdd]]bb]]]]ZZ]]bb]]XXZZUUUU<<!!!!--XXZZZZZZUUUUUUUUXXXXZZUUXXXXUUKK&&AASSZZbbbbbbbbggiiiiZZ__]]ddZZZZZZZZ__ZZ__bb__bb____ZZbbbbbbddbbbbddgg______bb____ddbb__ZZZZ______bb____dd]]__ddbbUUZZbb]]__bbbb__bb__]]]]ZZ]]ZZZZZZZZXXUUXXXXUUSS]]]]UUZZIISS]]ggddggbbdd]]llllggddddZZZZ__]]bb__XXXXZZSS]]]]]]ZZZZZZ]]ZZZZZZ]]]]ZZZZZZZZZZ]]]]]]ZZZZbbbbbbbbggiiiiZZ__]]ddZZZZZZZZ__ZZ__bb__bb____ZZbbbbbbddbbbbddgg______bb____ddbb__ZZZZ______bb____dd]]__ddbbUUZZbb]]__bbbb__bb__]]]]ZZ]]ZZZZZZZZXXUUXXXXUUSS]]]]UUZZIISS]]ggddggbbdd]]llllggddddZZZZ__]]bb__XXXXZZSS]]]]]]ZZZZZZ]]ZZZZZZ]]]]ZZZZZZZZZZ]]]]]]ZZqqnnggbbbbggiigg__ZZZZ]]]]ZZXXUUXXZZXXZZggddZZXXZZ__]]ZZSSXX__bb]]XXZZ__bbggZZUUZZIIPPbbddggbbSSPPSSII::<<AASS__SSNN::::::ggqqgg__SSbb]]bbbbggbb__ZZXXZZ]]ZZXXUUUUZZ__]]UUZZXXZZ__bbddZZiinnqqqqllgg____dd__________XX]]ggggllggddggggllggddbbbbddbbbbbbbbbbiiiiqqnnggbbbbggiigg__ZZZZ]]]]ZZXXUUXXZZXXZZggddZZXXZZ__]]ZZSSXX__bb]]XXZZ__bbggZZUUZZIIPPbbddggbbSSPPSSII::<<AASS__SSNN::::::ggqqgg__SSbb]]bbbbggbb__ZZXXZZ]]ZZXXUUUUZZ__]]UUZZXXZZ__bbddZZiinnqqqqllgg____dd__________XX]]ggggllggddggggllggddbbbbddbbbbbbbbbbiiiivviiddddddbb__]]UUPP____ddbbdd__ZZ]]__ddggggiillggbb]]UUSSZZSSKKDDDDiiiinngggglliiZZ__SSZZSSIIPPUUXXXXUUXXFFIINNNNIIFFIIIIIIIIAAAAPPSSNNXXUUNN??7777]]ggddddbb__ZZZZ__ddXXXXUUXXNNddggggggggllnnqqnngg]]]]bbbbbbgggg__ggnnllnnnnqqqqssqqqqnnqqqqnniiggggddddddiivviiddddddbb__]]UUPP____ddbbdd__ZZ]]__ddggggiillggbb]]UUSSZZSSKKDDDDiiiinngggglliiZZ__SSZZSSIIPPUUXXXXUUXXFFIINNNNIIFFIIIIIIIIAAAAPPSSNNXXUUNN??7777]]ggddddbb__ZZZZ__ddXXXXUUXXNNddggggggggllnnqqnngg]]]]bbbbbbgggg__ggnnllnnnnqqqqssqqqqnnqqqqnniiggggddddddii

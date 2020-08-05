@@ -1,0 +1,6 @@
+cyrus = 7
+stone = 2
+boat = 3
+circle = 10
+
+Reason - m = patch size. Should match size of structures in image to inpaint/extend seamlessly
